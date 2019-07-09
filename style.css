@@ -1,6 +1,7 @@
 /* Background */
 body {
-    background-color: dimgray;
+	background-color: dimgray;
+	padding-left: 100px;
 }
 
 /* Header */
