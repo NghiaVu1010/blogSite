@@ -1,4 +1,45 @@
+/* Background */
+body {
+    background-color: dimgray;
+}
+
+/* Header */
 h1 {
     color: chartreuse;
     font-style: italic;
+}
+
+/* Navigation */
+nav ul{
+	margin: 0;
+	padding-left: 150px;
+	overflow: hidden;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li a {
+	color: chartreuse;
+	padding: 5px 32px;
+	text-align: center;
+}
+
+li a:hover {
+  background-color: rgb(94, 158, 52);
+  border-bottom: 2px solid chartreuse;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(94, 158, 52);
+  border-bottom: 2px solid chartreuse;
+}
+
+/* Images */
+img {
+	float: right;
+	overflow: auto;
 }
